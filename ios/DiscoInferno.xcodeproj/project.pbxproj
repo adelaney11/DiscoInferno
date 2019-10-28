@@ -12,14 +12,14 @@
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		28F4C690AE9A65B4E5C59F8B /* libPods-DiscoInferno-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DAAEFE0752EA7F208E47277 /* libPods-DiscoInferno-tvOSTests.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* DiscoInfernoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* DiscoInfernoTests.m */; };
-		3768E99CD721DCB125B6C33F /* libPods-DiscoInferno.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CBE8C1391DA9C8E07727A4 /* libPods-DiscoInferno.a */; };
-		5EB85A6A433B51288B9D9377 /* libPods-DiscoInferno-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CFC2AE4400E7E16C6D986834 /* libPods-DiscoInferno-tvOS.a */; };
-		C454EB737D52366F7563980F /* libPods-DiscoInfernoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C4D316CD8B976488457070 /* libPods-DiscoInfernoTests.a */; };
-		D5F5423FFAF4504328AEF87C /* libPods-DiscoInferno-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B7084F4A2CA280FC2531690 /* libPods-DiscoInferno-tvOSTests.a */; };
+		6B31A613EADBF1E6A5937B5B /* libPods-DiscoInferno.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A192BAFB5FCC77AE2B9C9CB /* libPods-DiscoInferno.a */; };
+		8BD831CBA73EB16D68529074 /* libPods-DiscoInfernoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ACFAD7FADE654A60A51B724 /* libPods-DiscoInfernoTests.a */; };
+		C427990D553719F1C36D8D59 /* libPods-DiscoInferno-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 744D1B5FD1182C5868FB25E1 /* libPods-DiscoInferno-tvOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +44,6 @@
 		00E356EE1AD99517003FC87E /* DiscoInfernoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiscoInfernoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* DiscoInfernoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscoInfernoTests.m; sourceTree = "<group>"; };
-		04C4D316CD8B976488457070 /* libPods-DiscoInfernoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DiscoInfernoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* DiscoInferno.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiscoInferno.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = DiscoInferno/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = DiscoInferno/AppDelegate.m; sourceTree = "<group>"; };
@@ -52,21 +51,22 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = DiscoInferno/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = DiscoInferno/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = DiscoInferno/main.m; sourceTree = "<group>"; };
+		1ACFAD7FADE654A60A51B724 /* libPods-DiscoInfernoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DiscoInfernoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E47B1E0B4A5D006451C7 /* DiscoInferno-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DiscoInferno-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* DiscoInferno-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DiscoInferno-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5BA13540BD1C25E7D3D55076 /* Pods-DiscoInferno.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiscoInferno.debug.xcconfig"; path = "Target Support Files/Pods-DiscoInferno/Pods-DiscoInferno.debug.xcconfig"; sourceTree = "<group>"; };
-		7727E418DE27D820CDFF61E1 /* Pods-DiscoInfernoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiscoInfernoTests.release.xcconfig"; path = "Target Support Files/Pods-DiscoInfernoTests/Pods-DiscoInfernoTests.release.xcconfig"; sourceTree = "<group>"; };
-		84CBE8C1391DA9C8E07727A4 /* libPods-DiscoInferno.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DiscoInferno.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B7084F4A2CA280FC2531690 /* libPods-DiscoInferno-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DiscoInferno-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A26E6A9D65B9E9BE1E206154 /* Pods-DiscoInferno-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiscoInferno-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-DiscoInferno-tvOS/Pods-DiscoInferno-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		AB88C477C1680B35E5CA170B /* Pods-DiscoInferno.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiscoInferno.release.xcconfig"; path = "Target Support Files/Pods-DiscoInferno/Pods-DiscoInferno.release.xcconfig"; sourceTree = "<group>"; };
-		C4B5F00F57E58B27764FC022 /* Pods-DiscoInferno-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiscoInferno-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-DiscoInferno-tvOSTests/Pods-DiscoInferno-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		CFC2AE4400E7E16C6D986834 /* libPods-DiscoInferno-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DiscoInferno-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D08927D0AD276C01E8E49194 /* Pods-DiscoInferno-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiscoInferno-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-DiscoInferno-tvOSTests/Pods-DiscoInferno-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		DBE5EBE47358FF223B840DC9 /* Pods-DiscoInfernoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiscoInfernoTests.debug.xcconfig"; path = "Target Support Files/Pods-DiscoInfernoTests/Pods-DiscoInfernoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2DAAEFE0752EA7F208E47277 /* libPods-DiscoInferno-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DiscoInferno-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A192BAFB5FCC77AE2B9C9CB /* libPods-DiscoInferno.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DiscoInferno.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51713C6AE66F01FB07830D57 /* Pods-DiscoInferno-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiscoInferno-tvOS.release.xcconfig"; path = "Target Support Files/Pods-DiscoInferno-tvOS/Pods-DiscoInferno-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		5D0B9D7D2A1528A9A3444B5C /* Pods-DiscoInfernoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiscoInfernoTests.debug.xcconfig"; path = "Target Support Files/Pods-DiscoInfernoTests/Pods-DiscoInfernoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		721937C7390577A9B322BF65 /* Pods-DiscoInferno-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiscoInferno-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-DiscoInferno-tvOS/Pods-DiscoInferno-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		744D1B5FD1182C5868FB25E1 /* libPods-DiscoInferno-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DiscoInferno-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		809FDC4688DE1F70D00777B4 /* Pods-DiscoInfernoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiscoInfernoTests.release.xcconfig"; path = "Target Support Files/Pods-DiscoInfernoTests/Pods-DiscoInfernoTests.release.xcconfig"; sourceTree = "<group>"; };
+		858B3E2CC7ACAD1B4072CC9C /* Pods-DiscoInferno.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiscoInferno.debug.xcconfig"; path = "Target Support Files/Pods-DiscoInferno/Pods-DiscoInferno.debug.xcconfig"; sourceTree = "<group>"; };
+		A419D57E9FE7A59ED79D5C46 /* Pods-DiscoInferno-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiscoInferno-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-DiscoInferno-tvOSTests/Pods-DiscoInferno-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		ABE740F476FD534AAC3DB134 /* Pods-DiscoInferno.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiscoInferno.release.xcconfig"; path = "Target Support Files/Pods-DiscoInferno/Pods-DiscoInferno.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F7A3C4076C0F30F24FDB8FC1 /* Pods-DiscoInferno-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiscoInferno-tvOS.release.xcconfig"; path = "Target Support Files/Pods-DiscoInferno-tvOS/Pods-DiscoInferno-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		FD587DA8373031CB6869A140 /* Pods-DiscoInferno-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiscoInferno-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-DiscoInferno-tvOSTests/Pods-DiscoInferno-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C454EB737D52366F7563980F /* libPods-DiscoInfernoTests.a in Frameworks */,
+				8BD831CBA73EB16D68529074 /* libPods-DiscoInfernoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3768E99CD721DCB125B6C33F /* libPods-DiscoInferno.a in Frameworks */,
+				6B31A613EADBF1E6A5937B5B /* libPods-DiscoInferno.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EB85A6A433B51288B9D9377 /* libPods-DiscoInferno-tvOS.a in Frameworks */,
+				C427990D553719F1C36D8D59 /* libPods-DiscoInferno-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5F5423FFAF4504328AEF87C /* libPods-DiscoInferno-tvOSTests.a in Frameworks */,
+				28F4C690AE9A65B4E5C59F8B /* libPods-DiscoInferno-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,22 +122,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		0E9FDBD3D1233A2D66D56227 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5BA13540BD1C25E7D3D55076 /* Pods-DiscoInferno.debug.xcconfig */,
-				AB88C477C1680B35E5CA170B /* Pods-DiscoInferno.release.xcconfig */,
-				A26E6A9D65B9E9BE1E206154 /* Pods-DiscoInferno-tvOS.debug.xcconfig */,
-				F7A3C4076C0F30F24FDB8FC1 /* Pods-DiscoInferno-tvOS.release.xcconfig */,
-				C4B5F00F57E58B27764FC022 /* Pods-DiscoInferno-tvOSTests.debug.xcconfig */,
-				D08927D0AD276C01E8E49194 /* Pods-DiscoInferno-tvOSTests.release.xcconfig */,
-				DBE5EBE47358FF223B840DC9 /* Pods-DiscoInfernoTests.debug.xcconfig */,
-				7727E418DE27D820CDFF61E1 /* Pods-DiscoInfernoTests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		13B07FAE1A68108700A75B9A /* DiscoInferno */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,12 +141,28 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				84CBE8C1391DA9C8E07727A4 /* libPods-DiscoInferno.a */,
-				CFC2AE4400E7E16C6D986834 /* libPods-DiscoInferno-tvOS.a */,
-				8B7084F4A2CA280FC2531690 /* libPods-DiscoInferno-tvOSTests.a */,
-				04C4D316CD8B976488457070 /* libPods-DiscoInfernoTests.a */,
+				3A192BAFB5FCC77AE2B9C9CB /* libPods-DiscoInferno.a */,
+				744D1B5FD1182C5868FB25E1 /* libPods-DiscoInferno-tvOS.a */,
+				2DAAEFE0752EA7F208E47277 /* libPods-DiscoInferno-tvOSTests.a */,
+				1ACFAD7FADE654A60A51B724 /* libPods-DiscoInfernoTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82CAE2DDDE398400E3355EB4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				858B3E2CC7ACAD1B4072CC9C /* Pods-DiscoInferno.debug.xcconfig */,
+				ABE740F476FD534AAC3DB134 /* Pods-DiscoInferno.release.xcconfig */,
+				721937C7390577A9B322BF65 /* Pods-DiscoInferno-tvOS.debug.xcconfig */,
+				51713C6AE66F01FB07830D57 /* Pods-DiscoInferno-tvOS.release.xcconfig */,
+				FD587DA8373031CB6869A140 /* Pods-DiscoInferno-tvOSTests.debug.xcconfig */,
+				A419D57E9FE7A59ED79D5C46 /* Pods-DiscoInferno-tvOSTests.release.xcconfig */,
+				5D0B9D7D2A1528A9A3444B5C /* Pods-DiscoInfernoTests.debug.xcconfig */,
+				809FDC4688DE1F70D00777B4 /* Pods-DiscoInfernoTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -180,7 +180,7 @@
 				00E356EF1AD99517003FC87E /* DiscoInfernoTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				0E9FDBD3D1233A2D66D56227 /* Pods */,
+				82CAE2DDDE398400E3355EB4 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -205,7 +205,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "DiscoInfernoTests" */;
 			buildPhases = (
-				99BC04864E458D400ECEDDCC /* [CP] Check Pods Manifest.lock */,
+				AF5536954F3A7B9D1610A49C /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -224,7 +224,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "DiscoInferno" */;
 			buildPhases = (
-				9676E67A4DDB6FA8AEC336B1 /* [CP] Check Pods Manifest.lock */,
+				C5BAC77141BF1774A488F146 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
@@ -244,7 +244,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "DiscoInferno-tvOS" */;
 			buildPhases = (
-				A00958B243BE4C0F6BA519F3 /* [CP] Check Pods Manifest.lock */,
+				726B894174A1950C748432F5 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -264,7 +264,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "DiscoInferno-tvOSTests" */;
 			buildPhases = (
-				9D81A15F300C09B81AFF7A47 /* [CP] Check Pods Manifest.lock */,
+				F1B8D5CE87D58B1B52143A6E /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -387,7 +387,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		9676E67A4DDB6FA8AEC336B1 /* [CP] Check Pods Manifest.lock */ = {
+		726B894174A1950C748432F5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -402,14 +402,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DiscoInferno-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-DiscoInferno-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		99BC04864E458D400ECEDDCC /* [CP] Check Pods Manifest.lock */ = {
+		AF5536954F3A7B9D1610A49C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -431,7 +431,29 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9D81A15F300C09B81AFF7A47 /* [CP] Check Pods Manifest.lock */ = {
+		C5BAC77141BF1774A488F146 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DiscoInferno-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1B8D5CE87D58B1B52143A6E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -447,28 +469,6 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-DiscoInferno-tvOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A00958B243BE4C0F6BA519F3 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DiscoInferno-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -580,7 +580,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBE5EBE47358FF223B840DC9 /* Pods-DiscoInfernoTests.debug.xcconfig */;
+			baseConfigurationReference = 5D0B9D7D2A1528A9A3444B5C /* Pods-DiscoInfernoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -603,7 +603,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7727E418DE27D820CDFF61E1 /* Pods-DiscoInfernoTests.release.xcconfig */;
+			baseConfigurationReference = 809FDC4688DE1F70D00777B4 /* Pods-DiscoInfernoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -623,7 +623,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5BA13540BD1C25E7D3D55076 /* Pods-DiscoInferno.debug.xcconfig */;
+			baseConfigurationReference = 858B3E2CC7ACAD1B4072CC9C /* Pods-DiscoInferno.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -643,7 +643,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AB88C477C1680B35E5CA170B /* Pods-DiscoInferno.release.xcconfig */;
+			baseConfigurationReference = ABE740F476FD534AAC3DB134 /* Pods-DiscoInferno.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -662,7 +662,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A26E6A9D65B9E9BE1E206154 /* Pods-DiscoInferno-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 721937C7390577A9B322BF65 /* Pods-DiscoInferno-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -690,7 +690,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7A3C4076C0F30F24FDB8FC1 /* Pods-DiscoInferno-tvOS.release.xcconfig */;
+			baseConfigurationReference = 51713C6AE66F01FB07830D57 /* Pods-DiscoInferno-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -718,7 +718,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4B5F00F57E58B27764FC022 /* Pods-DiscoInferno-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = FD587DA8373031CB6869A140 /* Pods-DiscoInferno-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -745,7 +745,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D08927D0AD276C01E8E49194 /* Pods-DiscoInferno-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = A419D57E9FE7A59ED79D5C46 /* Pods-DiscoInferno-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
