@@ -10,15 +10,18 @@ const HomeScreen = (props) => {
         <TouchableOpacity 
         style={styles.button}
         onPress = {() => props.navigation.navigate('Game')}>
-            <Text>
-                Play
-            </Text>
+            <Text>Play</Text>
         </TouchableOpacity> 
 
-        <TouchableOpacity style={styles.button}>
+        <TouchableOpacity 
+        style={styles.button}
+        onPress = {() => props.navigation.navigate('HowTo')}>
           <Text> How To Play </Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.button}>
+
+        <TouchableOpacity 
+        style={styles.button}
+        onPress = {() => props.navigation.navigate('Options')}>
           <Text> Options </Text>
         </TouchableOpacity>
       </View>

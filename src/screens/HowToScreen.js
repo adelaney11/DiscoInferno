@@ -1,10 +1,10 @@
 import React from 'react';
 import { View, Text, TouchableOpacity, StyleSheet} from 'react-native';
 
-const GameScreen = () => {
+const HowToScreen = () => {
     return(
-        <Text>Game Screen</Text>
+        <Text>How To Play Screen</Text>
     )
 }
 
-export default GameScreen;
+export default HowToScreen;
