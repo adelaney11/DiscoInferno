@@ -5,7 +5,9 @@ const HowToScreen = () => {
     return(
         <View>
 
-            <Image source={require('./')} />;
+            <Image source={require('./disco inferno logo.gif')} 
+             style={styles.gifImage}
+            />;
 
             
             <Text>How To Play Screen</Text>
