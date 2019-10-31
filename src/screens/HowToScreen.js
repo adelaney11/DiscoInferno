@@ -5,8 +5,7 @@ const HowToScreen = () => {
     return(
         <View>
 
-            <Image source={require('./)} 
-            />;
+            <Image/>
 
             
             <Text>How To Play Screen</Text>
