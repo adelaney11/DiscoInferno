@@ -1,8 +1,7 @@
 import React from 'react';
 import { View, Text, TouchableOpacity, StyleSheet} from 'react-native';
 
-const HomeScreen = (props) => {
-    console.log(props);
+const HomeScreen = () => {
     return (
       <View style={styles.container}>
         <Text style={styles.title}>Disco Inferno</Text>
@@ -46,7 +45,7 @@ const HomeScreen = (props) => {
       marginVertical: 8,
       fontSize: 33,
       color: '#ffffff',
-      fontFamily: 'Chalkduster',
+      fontFamily: 'Futura',
     },
   });
 
