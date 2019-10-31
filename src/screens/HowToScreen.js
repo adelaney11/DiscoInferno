@@ -5,8 +5,7 @@ const HowToScreen = () => {
     return(
         <View>
 
-            <Image source={require('./disco inferno logo.gif')} 
-             style={styles.gifImage}
+            <Image source={require('./)} 
             />;
 
             
