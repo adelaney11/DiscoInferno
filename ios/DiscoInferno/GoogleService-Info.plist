@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>927505155361-pfnn008guab23ks5chrkmdup24el81qa.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.927505155361-pfnn008guab23ks5chrkmdup24el81qa</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDVlGvsYTVUw2lR4ISI3H-xFWyv6yjDUes</string>
+	<key>GCM_SENDER_ID</key>
+	<string>927505155361</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>org.reactjs.native.example.DiscoInferno</string>
+	<key>PROJECT_ID</key>
+	<string>discoinferno</string>
+	<key>STORAGE_BUCKET</key>
+	<string>discoinferno.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:927505155361:ios:d5e1ea6ddada308474ea60</string>
+	<key>DATABASE_URL</key>
+	<string>https://discoinferno.firebaseio.com</string>
+</dict>
+</plist>

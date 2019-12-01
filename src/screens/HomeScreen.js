@@ -10,10 +10,10 @@ import {
 const HomeScreen = props => {
   return (
     <ImageBackground
-      source={require('/Users/joshua/DiscoInferno/assets/coolFire4.jpg')}
+      source={require('/Users/joshua/DiscoInferno/assets/VenusPlant.jpg')}
       style={styles.background}>
       <View style={styles.container}>
-        <Text style={styles.title}>Disco Inferno</Text>
+        <Text style={styles.title}>Party Plant</Text>
 
         <TouchableOpacity
           //style={styles.play}
@@ -25,6 +25,12 @@ const HomeScreen = props => {
           //style={styles.howToPlay}
           onPress={() => props.navigation.navigate('HowTo')}>
           <Text style={styles.howToPlay}>How To Play </Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity
+          //style={styles.options}
+          onPress={() => props.navigation.navigate('PostOrView')}>
+          <Text style={styles.howToPlay}>Leaderboards</Text>
         </TouchableOpacity>
 
         <TouchableOpacity
@@ -45,7 +51,7 @@ const styles = StyleSheet.create({
   },
   play: {
     backgroundColor: 'white',
-    color: '#3A59FF',
+    color: 'black',
     width: '75%',
     borderRadius: 27,
     textAlign: 'center',
@@ -57,7 +63,7 @@ const styles = StyleSheet.create({
     //borderWidth: 1,
   },
   howToPlay: {
-    backgroundColor: '#3A59FF',
+    backgroundColor: 'green',
     color: 'white',
     width: '75%',
     borderRadius: 27,
@@ -71,7 +77,7 @@ const styles = StyleSheet.create({
   },
   options: {
     backgroundColor: 'white',
-    color: '#3A59FF',
+    color: 'black',
     width: '75%',
     borderRadius: 27,
     textAlign: 'center',
@@ -86,7 +92,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     marginVertical: 8,
     fontSize: 50,
-    color: '#ffffff',
+    color: 'orange',
     fontFamily: 'Copperplate-bold',
   },
   background: {
