@@ -3,8 +3,6 @@ import {View, Text, StyleSheet} from 'react-native';
 import ItemComponent from '../components/ItemComponent';
 import * as firebase from 'firebase';
 
-//import {firebaseDb} from './LeaderboardsScreen';
-
 const firebaseDb = firebase.database();
 
 let itemsRef = firebaseDb.ref('/items');

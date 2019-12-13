@@ -10,7 +10,7 @@ import {
 const HomeScreen = props => {
   return (
     <ImageBackground
-      source={require('/Users/joshua/DiscoInferno/assets/VenusPlant.jpg')}
+      source={require('/Users/joshua/DiscoInferno/assets/PartyPlant.jpeg')}
       style={styles.background}>
       <View style={styles.container}>
         <Text style={styles.title}>Party Plant</Text>
@@ -92,7 +92,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     marginVertical: 8,
     fontSize: 50,
-    color: 'orange',
+    color: 'black',
     fontFamily: 'Copperplate-bold',
   },
   background: {

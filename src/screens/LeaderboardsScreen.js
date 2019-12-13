@@ -9,7 +9,6 @@ import {
 } from 'react-native';
 import * as firebase from 'firebase';
 
-//import {firebaseDb} from './List';
 const firebaseConfig = {
   apiKey: 'AIzaSyBpSTRmdzTeV-uTAAFi1EvOsXxlvdx4d9I',
   authDomain: 'discoinferno.firebaseapp.com',
